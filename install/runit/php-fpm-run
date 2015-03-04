@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /usr/sbin/php-fpm -F -c /etc 2>&1
