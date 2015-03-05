@@ -7,6 +7,6 @@ Only http port and zabbix server port are exposed
 
 Run command :
 
-docker run -d -p 80:80 -p 10050:10050 psuzzoni/docker-zabbix-aio-centos7
+docker run -d -p 80:80 -p 10051:10051 psuzzoni/docker-zabbix-aio-centos7
 
 

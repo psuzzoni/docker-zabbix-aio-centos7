@@ -12,6 +12,6 @@ RUN yum install -y nginx php-fpm php-pgsql php-common php-cli php-pear php-gd ph
 ADD install /install
 RUN /install/install.sh
 
-EXPOSE 80 10050
+EXPOSE 80 10051
 
 CMD runit
